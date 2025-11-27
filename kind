@@ -16,6 +16,18 @@ echo "kind & kubectl Successfully Installed!"
 
 ```
 
+#Docker insallation and permmission
+
+After that install docker and the user is not root user set permmission for user
+
+---
+
+sudo apt-get install docker.io -y
+sudo usermod -aG docker ubuntu && newgrp docker
+docekr ps
+
+---
+
 ## Multi-node clusters
 
 You can also have a cluster with multiple control-plane & worker nodes, create a config file.
