@@ -1,9 +1,8 @@
-#How To Create ns namespace
+# How to Create a Namespace
 
-'''
+```yaml
 apiVersion: v1
 kind: Namespace
 metadata:
-    name: my-app
-'''
+  name: my-app
 
